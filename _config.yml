@@ -1,7 +1,3 @@
-# Dependencies
-markdown:         redcarpet
-rouge   :         true
-
 # Permalinks
 permalink:        pretty
 
