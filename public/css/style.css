@@ -49,3 +49,28 @@ h2, h3 {
     padding-right: 5px;
     vertical-align: middle;
 }
+
+.share-page {
+  margin-bottom: 2em;
+  color: #bf616a;
+}
+.share-page a {
+  border : 1px solid #bf616a;
+  border-radius: 1em;
+  padding: .3em 1em;
+  margin-right: 1em
+}
+
+.share-page .svg-icon {
+  fill : #bf616a
+}
+
+.share-page a:hover {
+  text-decoration: none;
+  background-color: #bf616a;
+  color: white;
+}
+
+.share-page a:hover .svg-icon {
+  fill : white
+}
