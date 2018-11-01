@@ -6,9 +6,18 @@
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description | markdownify }}</p>
+    <br />
+    <p>
+      Une question? <br />
+      Une idée d'articles? <br />
+      Une référence à soumettre? <br />
+      <br />
+      N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a> ou par email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>.
+    </p>
+    {% include social.html %}
   </div>
 
-  <nav class="sidebar-nav">
+  <!-- <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
 
     {% comment %}
@@ -24,19 +33,12 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-  </nav>
+  </nav> -->
+
+  <!-- <div id="contact" class="sidebar-item"> -->
+  <!-- </div> -->
 
   <div class="sidebar-item">
 
-  </div>
-
-  <div id="contact" class="sidebar-item">
-    <p>
-      Une question? <br />
-      Une idée d'articles? <br />
-      Une référence à soumettre? <br />
-      <br />
-      N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a> ou par email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>.
-    </p>
   </div>
 </div>

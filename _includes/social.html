@@ -1,0 +1,38 @@
+<ul class="social-media-list">
+
+  {%- if site.facebook_username -%}
+    <li>
+      <a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" target="_blank" title="Facebook">
+        <svg class="svg-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#facebook' | relative_url }}"></use>
+        </svg>
+      </a>
+    </li>
+
+  {%- endif -%}
+
+  {%- if site.github_username -%}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" title="Github">
+        <svg class="svg-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+      </a>
+    </li>
+  {%- endif -%}
+
+
+  {%- if site.telegram_username -%}
+  <li>
+    <a href="https://t.me/{{ site.telegram_username| cgi_escape | escape }}" target="_blank" title="Telegram Group">
+      <svg class="svg-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#telegram' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  {%- endif -%}
+
+  {%- if site.rss -%}
+    <li>
+      <a href="{{ 'atom.xml' | relative_url }}" target="_blank" title="Flux RSS">
+        <svg class="svg-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#rss' | relative_url }}"></use></svg>
+      </a>
+    </li>
+  {%- endif -%}
+</ul>

@@ -24,3 +24,25 @@ h2, h3 {
   position: absolute;
   bottom : 1em
 }
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-list li{
+  display: inline;
+}
+
+.social-media-list a:hover {
+  text-decoration: none;
+}
+
+.svg-icon {
+    width: 20px;
+    height: 20px;
+    /* display: inline-block; */
+    fill: white;
+    padding-right: 5px;
+    vertical-align: middle;
+}
