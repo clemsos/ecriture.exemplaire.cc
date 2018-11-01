@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Propos
+title: A Propos de l'Auteur
 ---
 
 **L'Ecriture Exemplaire** est un ensemble de notes, documents et réflexions à propos des **technologies numériques en Chine**.
