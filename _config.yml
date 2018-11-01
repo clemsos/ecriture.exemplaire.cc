@@ -4,12 +4,16 @@ permalink:        pretty
 # Setup
 title:            "L'Ecriture Exemplaire"
 tagline:          ''
-description:      ''
+description:      "L'Ecriture Exemplaire est un ensemble de notes, documents, et réflexions par [Clément Renaud](/about) à propos des technologies numériques en Chine."
+
+#social
+facebook:         https://www.facebook.com/LEcriture-Exemplaire-2326825127550213
 
 
 author:
   name:           Clément Renaud
-  url:            https://twitter.com/clemsos
+  twitter:        clemsos
+  url:            https://clementrenaud.com
   email:          bonjour@clementrenaud.com
 
 paginate:         5

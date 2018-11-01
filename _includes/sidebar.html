@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <p>{{ site.description | markdownify }}</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -27,7 +27,7 @@
   </nav>
 
   <div class="sidebar-item">
-    
+
   </div>
 
   <div id="contact" class="sidebar-item">
