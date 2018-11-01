@@ -14,3 +14,10 @@ Vous trouverez plus d'informations sur [clementrenaud.com](https://clementrenaud
 ---
 
 NDLR : N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a> ou par email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a> !
+
+
+---
+
+<small>
+Ce site est réalisé grâce à [Jekyll](https://jekyllrb.com/) et au thème [Lanyon](http://lanyon.getpoole.com/). Le code source est disponible [ici](https://github.com/clemsos/ecriture.exemplaire.cc).
+</small>
