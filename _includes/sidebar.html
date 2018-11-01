@@ -24,15 +24,19 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
+    
+  </div>
+
+  <div id="contact" class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      Une question? <br />
+      Une idée d'articles? <br />
+      Une référence à soumettre? <br />
+      <br />
+      N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a> ou par email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>.
     </p>
   </div>
 </div>
