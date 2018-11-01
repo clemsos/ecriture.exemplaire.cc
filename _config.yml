@@ -7,7 +7,10 @@ tagline:          ''
 description:      "L'Ecriture Exemplaire est un ensemble de notes, documents, et réflexions par [Clément Renaud](/about) à propos des technologies numériques en Chine."
 
 #social
-facebook:         https://www.facebook.com/LEcriture-Exemplaire-2326825127550213
+facebook_username:  LEcriture-Exemplaire-2326825127550213
+github_username:    clemsos/ecriture.exemplaire.cc
+telegram_username:    ecriture_exemplaire
+rss:                "true"
 
 
 author:
@@ -17,10 +20,10 @@ author:
   email:          bonjour@clementrenaud.com
 
 paginate:         5
+plugins: [jekyll-paginate]
 
 markdown: kramdown
 
 # Custom vars
-
 github:
   repo:           https://github.com/clemsos/ecriture.exemplaire.cc

@@ -7,14 +7,19 @@
   <div class="sidebar-item">
     <p>{{ site.description | markdownify }}</p>
     <br />
+    {% include social.html %}
+    <br />
+    <br />
     <p>
       Une question? <br />
       Une idée d'articles? <br />
       Une référence à soumettre? <br />
       <br />
-      N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a> ou par email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>.
+      N'hésitez pas à me contacter sur Twitter <a href="https://twitter.com/{{site.author.twitter}}">@{{site.author.twitter}}</a>, email <a href="mailto:{{site.author.email}}">{{site.author.email}}</a> ou Wechat.
     </p>
-    {% include social.html %}
+
+
+    <img class="qr" src="/public/img/wechat-qr.jpg" title="Wechat Link"/>
   </div>
 
   <!-- <nav class="sidebar-nav">
