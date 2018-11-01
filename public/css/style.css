@@ -1,0 +1,13 @@
+.footnotes {
+  border-top: 1px solid #ccc;
+  padding-top: 2em;
+  font-size: .9em;
+}
+
+.footnotes ol {
+  padding-left: 1em
+}
+
+.footnotes p {
+  margin-bottom: .6rem;
+}
