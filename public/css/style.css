@@ -90,3 +90,10 @@ h2, h3 {
 .share-page a:hover .svg-icon {
   fill : #973D46;
 }
+
+#footer {
+  background : #bf616a;
+  height: 20vh;
+  padding-top: 2em;
+  color: white
+}
