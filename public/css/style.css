@@ -16,7 +16,7 @@ hr {
 }
 
 .masthead-title {
-  text-align: center;  
+  text-align: center;
 }
 
 .footnotes {
@@ -99,4 +99,8 @@ hr {
 
 .share-page a:hover .svg-icon {
   fill : #973D46;
+}
+
+.posts .post-date {
+  text-align: left;
 }
