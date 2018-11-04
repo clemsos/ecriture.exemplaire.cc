@@ -41,6 +41,7 @@ h2, h3 {
   text-decoration: none;
 }
 
+
 .svg-icon {
     width: 20px;
     height: 20px;
@@ -48,6 +49,10 @@ h2, h3 {
     fill: white;
     padding-right: 5px;
     vertical-align: middle;
+}
+
+.social-media-list .email-icon {
+  width: 24px;
 }
 
 .share-page {

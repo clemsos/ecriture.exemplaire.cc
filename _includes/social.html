@@ -21,7 +21,7 @@
 
   {%- if site.telegram_username -%}
   <li>
-    <a href="https://t.me/{{ site.telegram_username| cgi_escape | escape }}" target="_blank" title="Telegram Group">
+    <a href="https://t.me/{{ site.telegram_username| cgi_escape | escape }}" target="_blank" title="Groupe Telegram">
       <svg class="svg-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#telegram' | relative_url }}"></use>
       </svg>
     </a>
@@ -35,4 +35,34 @@
       </a>
     </li>
   {%- endif -%}
+
+  <!-- EMAIL SUBSCRIPTION -->
+  <li>
+    <a id="open-popup" href="#" title="Recevoir par email">
+      <svg class="svg-icon email-icon"><use xlink:href="{{ '/public/img/minima-social-icons.svg#email' | relative_url }}"></use></svg>
+    </a>
+  </li>
 </ul>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script type="text/javascript">
+
+function showMailingPopUp() {
+  console.log("pop up")
+
+  window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+     L.start({
+       "baseUrl":"mc.us19.list-manage.com",
+       "uuid":"c4804e55a9629121603260772",
+       "lid":"f3c4c2548f",
+       "uniqueMethods":true
+     })
+   })
+
+   document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+   document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+}
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
