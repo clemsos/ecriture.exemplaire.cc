@@ -35,6 +35,7 @@ h2, h3 {
 
 .social-media-list li{
   display: inline;
+  margin-right: .3em;
 }
 
 .social-media-list a:hover {
@@ -47,7 +48,7 @@ h2, h3 {
     height: 20px;
     /* display: inline-block; */
     fill: white;
-    padding-right: 5px;
+    /* padding-right: 5px; */
     vertical-align: middle;
 }
 
@@ -59,23 +60,30 @@ h2, h3 {
   margin-bottom: 2em;
   color: #bf616a;
 }
-.share-page a {
-  border : 1px solid #bf616a;
-  border-radius: 1em;
-  padding: .3em 1em;
-  margin-right: 1em
+
+.share-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.share-page ul li{
+  display: inline;
+  margin-right: 1em;
+}
+
+.share-page ul li:first {
+  padding-right: 2em;
 }
 
 .share-page .svg-icon {
-  fill : #bf616a
+  fill : #bf616a;
+  transform: scale(1.3);
 }
 
 .share-page a:hover {
   text-decoration: none;
-  background-color: #bf616a;
-  color: white;
 }
 
 .share-page a:hover .svg-icon {
-  fill : white
+  fill : #973D46;
 }
