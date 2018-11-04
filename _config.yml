@@ -29,5 +29,4 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 
 # Custom vars
-github:
-  repo:           https://github.com/clemsos/ecriture.exemplaire.cc
+github:           https://github.com/clemsos/ecriture.exemplaire.cc
